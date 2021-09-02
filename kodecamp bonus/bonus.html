@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+</head>
+<style>
+*{
+    background-color:white ;
+}
+#top{
+    display: flex;
+    width: 100%;
+}
+#under{
+    background-color: white;
+    margin: 20px;
+    padding: 20px 100px;
+    align-items: center;
+}
+.image{
+    width: 50%;
+    height: 50%;
+    padding: 20px 20px;
+    align-items: center;
+}
+.write{
+    width: 50%;
+    height: 50%;
+}
+.below{
+    background-color: black;
+    margin: 20px 20px;
+    align-items: center;
+}
+.below .row input{
+    width:70%;
+    height: 40px;
+    padding: 0px 10px;
+}
+.below .row textarea{
+    width: 70%;
+    height: 30%;
+}
+.submit{
+    background: #004DE6C2;
+    padding: 8px 40px;
+    border:1px solid blue;
+    border-radius: 10px 0px 10px 0px;
+    color: white;
+}
+.beg{
+    text-align: center;
+}
+.line{
+    color: #D89616;
+    margin: 8% 0;
+}
+
+</style>
+<body>
+    <b><h2 class="beg">Welcome</h2></b><br><br>
+    <section id="top">
+      <div class="image">
+        <img src="img/pexels-andres-ayrton-6578392 2.png" alt="model">
+      </div>
+      <div class="write">
+        <h2>Who we are?</h2>
+        <br class="line">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti repellendus quo tempore hic laborum mollitia ex praesentium officia vel excepturi dolorum voluptates, officiis dolores alias! Cum, debitis unde ipsa eum necessitatibus itaque temporibus voluptatum sit libero accusantium nihil. Quaerat maxime repellat mollitia, libero soluta reprehenderit officia veritatis voluptatum nesciunt porro culpa doloribus ullam et error?</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti repellendus quo tempore hic laborum mollitia ex praesentium officia vel excepturi dolorum voluptates, officiis dolores alias! Cum, debitis unde ipsa eum necessitatibus itaque temporibus voluptatum sit libero accusantium nihil. Quaerat maxime repellat mollitia, libero soluta reprehenderit officia veritatis voluptatum nesciunt porro culpa doloribus ullam et error?</p>
+      </div>
+    </section>
+    <section id="under">
+      <div class="below">
+        <form action>
+            <h1>Contact Us</h1>
+            <div class="row">
+            <label for="first">Frist Name</label><br>
+            <input type="text" name="first" id="first"><br>
+            <label for="last" >Last Name</label><br>
+            <input type="text" name="last" id="last"><br>
+            <label for="message">Your Message</label><br>
+            <textarea id="message" name="message" ></textarea><br>
+            <button class="submit">Submit</button><br>
+            </div>
+        </form>
+      </div>
+    </section>
+</body>
+</html>
